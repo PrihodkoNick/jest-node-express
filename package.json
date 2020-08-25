@@ -1,0 +1,28 @@
+{
+  "name": "jest-coursehunter-course",
+  "version": "1.0.0",
+  "description": "Course Jest tests with nodejs, express, mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest --watchAll"
+  },
+  "keywords": [
+    "jset",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Prikhodko Nick (udemy)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-mocks-http": "^1.9.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "mongoose": "^5.10.0",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
